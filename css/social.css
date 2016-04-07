@@ -1,0 +1,90 @@
+.social {
+	width: 50px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 4;
+}
+
+.social ul {
+	float: right;
+	margin: 40px;
+}
+
+.social ul li {
+	width: 38px;
+	height: 38px;
+	margin-top: 10px;
+}
+
+.social ul li .share {
+	width: 100%;
+	height: 100%;
+	background: #f45962;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.social ul li .share .icon {
+	width: 100%;
+	height: 100%;
+	background: url(../img/img_share_white.svg) 40% 50% / 18px no-repeat;
+	transition: all 0.2s ease-in-out;
+}
+
+.social ul li .share .icon:active {
+	opacity: 1;
+	transform: rotate(360deg);
+}
+
+.social ul li .facebook {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #f45962;
+	border-radius: 50%;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+	display: none;
+	opacity: 0;
+	background: url(../img/img_facebook_red.svg) 50% 50% / 22px 20px no-repeat;
+	cursor: pointer;
+}
+
+.social ul li .google {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #f45962;
+	border-radius: 50%;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+	display: none;
+	opacity: 0;
+	background: url(../img/img_google_red.svg) 50% 50% / 22px 20px no-repeat;
+	cursor: pointer;
+}
+
+.social ul li .twitter {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #f45962;
+	border-radius: 50%;
+	box-sizing: border-box;
+	transition: all 0.3s ease-in-out;
+	display: none;
+	opacity: 0;
+	background: url(../img/img_twitter_red.svg) 50% 50% / 22px 20px no-repeat;
+	cursor: pointer;
+}
+
+.social ul li .google:hover {
+	background: #f45962 url(../img/google_white.svg) 50% 50% / 22px 20px no-repeat;
+}
+
+.social ul li .twitter:hover {
+	background: #f45962 url(../img/twitter_white.svg) 50% 50% / 22px 20px no-repeat;
+}
+
+.social ul li .facebook:hover {
+	background: #f45962 url(../img/facebook_white.svg) 50% 50% / 22px 20px no-repeat;
+}

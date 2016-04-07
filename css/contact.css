@@ -1,0 +1,48 @@
+.contact {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(255, 255, 255);
+	z-index: 4;
+	top: 0;
+	display: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.contact .close {
+	float: right;
+	margin: 40px;
+}
+
+.contact .close a {
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin: 40px;
+	border-radius: 5px;
+	background: url(../img/close_red.svg) 50% 50% / 30px no-repeat;
+}
+
+.contact .content {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+}
+
+.contact .content h1 {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #f45962;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+
+.contact .content a {
+	margin-top: 20px;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.2px;
+	color: #999;
+	display: block;
+}

@@ -1,0 +1,159 @@
+#resultsPage-wrap {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	height: 80vh;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.resultsPage {
+	height: 510px;
+	width: 310px;
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	color: #4d4d4d;
+	margin-top: -70px;
+	transition: all 3s ease-in-out;
+	opacity: 0;
+}
+
+.resultsPageHeader {
+	width: 100%;
+	height: 20%;
+	background-color: white;
+}
+
+.resultCity {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 32px;
+	margin-top: 50px;
+	line-height: 38px;
+}
+
+.resultCountry {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+}
+
+.resultsPageImg {
+	width: 70%;
+	height: 32%;
+	margin: 0 auto;
+	margin-top: -30px;
+	background-size: 100%;
+}
+
+.currentWeather {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.currentWeather .curDeg {
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.currentWeather .curWeath {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.divider {
+	width: 226px;
+	height: 1.5px;
+	margin: 0 auto;
+	background: #f15861;
+	margin-top: 20px;
+}
+
+.weather_heading {
+	margin: 15px 0;
+	text-align: center;
+}
+
+.weather_heading h1 {
+	font-size: 12px;
+}
+
+.weatherForcast {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.weatherIconContainer {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.weatherIcon {
+	width: 48px;
+	min-height: 25px;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	background-position: center;
+	background-size: 18px;
+}
+
+.dayOfWeekContainer {
+	height: 35%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.day {
+	width: 48px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #b4b5b6;
+}
+
+.degreesContainer {
+	width: 100%;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+}
+
+.degrees {
+	width: 48px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tripButtonContainer {
+	width: 100%;
+	height: 5%;
+	background-color: grey;
+}
+
+.tripButton {
+	background: white;
+	height: 30px;
+}

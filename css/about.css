@@ -1,0 +1,47 @@
+.about {
+	position: absolute;
+	z-index: 4;
+	width: 100vw;
+	height: 100vh;
+	background: rgb(255, 255, 255);
+	top: 0;
+	display: none;
+	transition: all 0.5s ease-in-out;
+}
+
+.about .close {
+	float: right;
+	margin: 40px;
+}
+
+.about .close a {
+	height: 24px;
+	width: 24px;
+	float: right;
+	margin: 40px;
+	border-radius: 5px;
+	background: url(../img/close_red.svg) 50% 50% / 30px no-repeat;
+}
+
+.about .content {
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 15%;
+	text-align: center;
+}
+
+.about .content h1 {
+	font-size: 42px;
+	font-family: 'Montserrat', sans-serif;
+	color: #f45962;
+	letter-spacing: 1px;
+}
+
+.about .content p {
+	margin-top: 40px;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	color: #999;
+	text-align: justify;
+}
